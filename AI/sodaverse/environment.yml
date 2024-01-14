@@ -1,0 +1,19 @@
+name: sodaverse
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.16
+  - pip=20.2.3
+  - pip:
+    - openai==0.27.6
+    - transformers==4.34.1
+    - datasets==2.9.0
+    - sentencepiece==0.1.97
+    - colorful==0.5.5
+    - better-exceptions==0.3.3
+    - protobuf==3.20.3
+    # For linting
+    - pylint
+    - pycodestyle
+    - mypy

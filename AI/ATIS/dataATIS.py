@@ -1,0 +1,1 @@
+data = ["This is the first sentence.", "Here's the second sentence.", "Finally, the third one."]
